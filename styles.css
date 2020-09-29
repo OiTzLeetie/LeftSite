@@ -1,0 +1,41 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+h1 {
+    font-family: 'Hepta Slab', Arial, Helvetica;
+}
+
+.parallax {
+    background-image: url("space.jpg");
+  
+    /* Set a specific height */
+    height: 40%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  h1 {
+      font-size: 60px;
+  }
+
+  p {
+      font-size: 22px;
+  }
+
+  .col {
+      margin: 0px;
+      padding: 0px;
+      width: 100%;
+  }
+
+  .container {
+      margin: 0px;
+      padding: 0px;
+  }
