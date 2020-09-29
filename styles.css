@@ -1,18 +1,14 @@
 html, body {
+    font-family: 'Hepta Slab', Arial, Helvetica;
     margin: 0px;
     padding: 0px;
-    height: 100%;
-}
-
-h1 {
-    font-family: 'Hepta Slab', Arial, Helvetica;
 }
 
 .parallax {
     background-image: url("space.jpg");
   
     /* Set a specific height */
-    height: 40%;
+    height: 100%;
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -20,22 +16,34 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
-  h1 {
-      font-size: 60px;
-  }
 
-  p {
+h1 {
+    font-size: 60px;
+    color: #ffcc99;
+    text-shadow: 2px 2px #3366ff,
+                 4px 4px #99ccff,
+                 6px 6px #4d79ff;
+    margin-bottom: 0px;
+}
+
+p {
       font-size: 22px;
+      color: white;
+      margin: 0px;
+      margin-bottom: 25px;
   }
 
-  .col {
-      margin: 0px;
-      padding: 0px;
-      width: 100%;
-  }
+.col {
+    margin: 10px;
+}
 
-  .container {
-      margin: 0px;
-      padding: 0px;
-  }
+.jumbotron {
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+.card {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
